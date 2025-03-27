@@ -1,4 +1,4 @@
-import vid from "../assets/curryVideo.mp4";
+import vid from "../assets/HomeVid.mp4";
 
 const Home = () => {
   return (
