@@ -22,7 +22,7 @@ const Home = () => {
       </div>
       <div>
         <p>GET IN TOUCH</p>
-        <p>INFO@FRNWEI.CO</p>
+        <a href="mailto:info@frnwei.co" className="text-white underline">INFO@FRNWEI.CO</a>
       </div>
 </div>
     </div>
