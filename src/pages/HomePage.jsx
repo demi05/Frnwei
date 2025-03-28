@@ -18,7 +18,7 @@ const Home = () => {
       <div className="absolute inset-0 bg-black opacity-20"></div>
 
       {/* ✅ Text Content */}
-      <div className="relative z-10 flex w-[60%] sm:w-[50%] md:w-[45%] lg:w-[35%] xl:w-[27%] font-medium gap-12 text-[13px]">
+      <div className="relative z-10 flex w-[80%] sm:w-[50%] md:w-[45%] lg:w-[35%] xl:w-[27%] font-medium gap-12 text-[13px]">
         <div>
           <p>FRNWEI.CO IS</p>
           <p>COMING SOON</p>
