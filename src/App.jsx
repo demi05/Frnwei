@@ -4,7 +4,7 @@ import Home from "./pages/HomePage"
 function App() {
 
   return (
-    <div className='font-body'>
+    <div className='font-body max-h-full overflow-hidden'>
       <Home />
     </div>
   )
