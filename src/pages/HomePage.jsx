@@ -3,12 +3,14 @@ import vid from "../assets/HomeVid.mp4";
 const Home = () => {
   return (
     <div className="relative w-full h-full flex flex-col items-end text-white p-5">
-      <video
+      <div dangerouslySetInnerHTML={{
+        __html:<video
         className="absolute inset-0 w-full h-screen object-cover z-0"
-        autoPlay
-        loop muted src={vid}
+        autoPlay loop muted playsInline
       >
+       <source src={vid} type="video/mp4" />
       </video>
+      }}></div>
 
       <div className="absolute inset-0 bg-black opacity-20 h-screen"></div>
 
