@@ -4,11 +4,11 @@ const Home = () => {
   return (
     <div className="relative w-full h-full flex flex-col items-end text-white p-5">
       <video
-        className="absolute inset-0 w-full h-full object-cover z-0"
+        className="absolute inset-0 w-full h-screen object-cover z-0"
         autoPlay
-        loop muted
+        loop muted src={vid}
       >
-        <source src={vid} type="video/mp4" />
+        {/* <source src={vid} type="video/mp4" /> */}
         {/* Your browser does not support the video tag. */}
       </video>
 
